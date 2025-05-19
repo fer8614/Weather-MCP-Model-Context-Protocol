@@ -71,7 +71,7 @@ This will allow your editor or client to automatically detect and launch the Wea
 
 ---
 
-# Weather MCP (English)
+# Weather MCP
 
 This project implements a Model Context Protocol (MCP) server that allows you to query the current weather and weather forecasts for any city. You can ask for the current weather and forecasts for up to 5 days.
 
