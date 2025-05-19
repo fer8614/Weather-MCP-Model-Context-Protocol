@@ -11,7 +11,7 @@ const server = new McpServer({
     version: "1.0.0"
 });
 
-// 2. Define the tools
+// 2. Defining the tools
 //Allow the LLM to perform actions through your server
 server.tool(
     "fetch-weather", //Tool title
@@ -50,3 +50,8 @@ server.tool(
         }
     }
 )
+
+
+// 3. Listen to connections of clients
+const transport = new StdioServerTransport();
+await server.connect(transport);
