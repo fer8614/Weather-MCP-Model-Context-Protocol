@@ -88,6 +88,9 @@ The MCP server exposes a tool called `fetch-weather`. When you provide a city na
 2. Fetches current and 5-day forecast data from the Open-Meteo Weather API.
 3. Returns the weather data in a structured format.
 
+## Weather API Used
+This project uses the weather API from [https://open-meteo.com/](https://open-meteo.com/). The Open-Meteo API provides free weather data, including current conditions and forecasts, which are used by the MCP server to respond to user queries about the weather in any city. All weather and forecast information returned by this project is sourced from Open-Meteo.
+
 ## Code Inspection
 Inspect the MCP code using the inspector tool:
 
